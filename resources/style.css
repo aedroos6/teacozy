@@ -123,3 +123,17 @@ padding-top: 60px;
   display: block;
   padding: 10px;
 }
+/*footer section*/
+footer{
+  background-color: black;
+  align-text: center;
+  width: 1200px;
+}
+.footertea{
+  height: 200px;
+  display: block;
+}
+.footbottom{
+  text-align: left;
+  padding-left: 20px;
+}
