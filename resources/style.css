@@ -5,6 +5,7 @@ body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 nav span{
   display: inline-block;
@@ -14,9 +15,12 @@ nav span{
   width: 1200px;
   margin: auto;
 }
-h2, h4{
+h2,
+h4,
+h3{
   margin: 0;
   padding:10px;
+  display: block;
 }
 
 /*header section*/
@@ -48,6 +52,8 @@ header nav{
   text-decoration: underline;
 padding-right: 50px;
 }
+/*main content*/
+
 /* mission section*/
 #mission{
   display: flex;
@@ -64,4 +70,56 @@ padding-top: 50px;
 }
 .missionback{
   text-align: center;
+}
+/*teatheofmonth section*/
+#month{
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+}
+.teacontent{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.tea{
+  padding: 10px;
+}
+.tea img{
+  height: 200px;
+  width: 300px;
+}
+.tea span{
+  display: block;
+}
+/*location section*/
+#location{
+ height: 500px;
+ width: 1200px;
+ background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+margin: auto;
+padding-top: 60px;
+}
+#location h2{
+  padding-bottom: 10px;
+}
+.addresscontain{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.address{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1.0;
+  margin: 5px 20px;
+}
+.address span{
+  display: block;
+  padding: 10px;
 }
